@@ -1,0 +1,19 @@
+db.products.insert({
+    _id: 3,
+    name: "Rubber",
+    price: 1.30,
+    stock: 43,
+    review[
+        {
+            authorName: "Sally",
+            rating: 5,
+            review: "Fantastic"
+        },
+        {
+            authorName: "John",
+            rating: 5,
+            review: "Good"
+        }
+    ]
+})
+
